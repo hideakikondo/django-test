@@ -1,3 +1,3 @@
 # About
 
-This project is a tset for django framework.
+This project is a test for django framework.
