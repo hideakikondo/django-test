@@ -1,0 +1,10 @@
+{
+  "name": "django_test",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "ms-python.python"
+  ],
+  "shutdownAction": "stopCompose"
+}
