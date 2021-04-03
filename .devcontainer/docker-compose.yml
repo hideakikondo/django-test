@@ -11,7 +11,7 @@ services:
     depends_on:
       - db
   db:
-    image: mysql:5.7
+    image: mysql@sha256:43bf7db32d11e75d8463a8bc077f09af5fb5b84b182b1d74124ddca633093bfa
     restart: always
     environment:
       MYSQL_DATABASE: dev
